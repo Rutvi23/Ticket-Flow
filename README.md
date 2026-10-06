@@ -55,7 +55,13 @@ Demo logins (password `password123`): `agent@demo.com`, `customer@demo.com`
 - Frontend: Vercel or Netlify. Build command `npm run build`, output `dist`, env var `VITE_API_URL=https://<your-api>/api`
 - For Vercel/Netlify, add a rewrite of all routes to `/index.html` so React Router works on refresh
 
-   ## Screenshots
-   ![Customer Dashboard](docs\Customer dashboard.png)
-   ![Tickets Description](docs/customer ticket desc.png)
-   ![Agent Dashboard](docs/Agent dashboard.png)
+  ## Screenshots
+
+### Customer dashboard
+![Customer dashboard](docs/customer-dashboard.png)
+
+### Ticket detail with comments
+![Ticket detail](docs/ticket-detail.png)
+
+### Agent dashboard
+![Agent dashboard](docs/agent-dashboard.png)
