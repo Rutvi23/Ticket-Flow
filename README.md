@@ -54,3 +54,8 @@ Demo logins (password `password123`): `agent@demo.com`, `customer@demo.com`
 - API: Render or AWS. Env vars: DB_HOST, DB_USER, DB_PASS, DB_NAME, JWT_SECRET, CLIENT_URL (your frontend URL)
 - Frontend: Vercel or Netlify. Build command `npm run build`, output `dist`, env var `VITE_API_URL=https://<your-api>/api`
 - For Vercel/Netlify, add a rewrite of all routes to `/index.html` so React Router works on refresh
+
+   ## Screenshots
+   ![Customer Dashboard](docs\Customer dashboard.png)
+   ![Tickets Description](docs/customer ticket desc.png)
+   ![Agent Dashboard](docs/Agent dashboard.png)
